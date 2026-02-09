@@ -1,0 +1,60 @@
+
+body{
+height: 2000px;
+
+}
+
+.primary-navigation{
+
+    background-color: aquamarine;
+    width: 50%;
+    text-align: center;
+
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  
+   
+   position: fixed;
+  /*position: sticky;*/
+    
+    
+
+}
+
+ a{
+    margin-right: 10px;
+
+}
+
+h1 {
+     width: 80%;
+    margin: auto;
+
+}
+
+.lor{
+   margin: 0 auto;
+   
+}
+
+.quadrato1{
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+     position: absolute;
+    top:50% ;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.quadrato2{
+    background-color: grey;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top:50% ;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
