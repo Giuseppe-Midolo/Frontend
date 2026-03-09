@@ -1,0 +1,57 @@
+.content{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 5px;
+    
+    height: 70vh;
+}
+.box1{
+    width:auto ;
+    height:auto ;
+    background-color: blue ;
+    grid-row: 2 span;
+    grid-column: 2 span;
+    border-radius: 50px;
+    
+}
+.box2{
+    width:auto ;
+    height:auto ;
+    background-color: green;
+    border-radius: 20px;
+     
+}
+
+.box3{
+    width: auto ;
+    height: auto;
+    background-color:yellow;
+    border-radius: 20px;
+    
+}
+
+.box4{
+    width: auto;
+    height: auto;
+    background-color: rgb(128, 0, 0);
+    border-radius: 20px;
+}
+
+.box5{
+    width: auto;
+    height: auto;
+    background-color: rgb(181, 200, 183);
+    border-radius: 20px;
+}
+
+
+.red{
+    background-color: red;
+}
+
+
+.box5.active {
+    background-color: red;
+}
+

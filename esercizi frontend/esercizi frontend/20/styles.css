@@ -1,0 +1,50 @@
+.container {
+
+ display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+ /* align-items: center; */
+    align-content: center;
+    height: 100vh;
+    
+    
+}
+ 
+img {
+width: 200px;
+height: 200px;
+background-color: #d1bf1b;
+border: 2px solid red;
+/* padding: 30px; */
+/* margin: 30px; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Dal più forte al più debole: 
+
+Specificità dei selettori CSS
+
+!important
+Stile inline 
+ID (#id)
+Classe (.class), attributo ([attr]), pseudo-classe (:hover)
+Selettore di elemento (div, p, span)
+Selettore universale (*)
+*/
